@@ -1,0 +1,441 @@
+compute_s,us_per_sample,start_ns,end_ns,rss_baseline_MiB,rss_peak_MiB,rss_delta_MiB,nonconverged,valid_predictions,deterministic,n_samples,error,exit_code,traceback,process_wall_s,model,round,position,input_sha256
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=8),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=8)
+",0.5721910779998325,M1,1,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=9),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=9)
+",0.48724810699991394,M2,1,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=10),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=10)
+",0.5670440589999544,M3,1,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=11),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=11)
+",0.6815991729999951,M4,1,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=12),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=12)
+",0.5038430929998867,M2,2,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=13),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=13)
+",0.4825587779998841,M3,2,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=14),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=14)
+",0.6671167009999408,M4,2,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=15),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=15)
+",0.5095745690000513,M1,2,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=16),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=16)
+",0.4995723449999332,M3,3,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=17),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=17)
+",0.583142577999979,M4,3,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=18),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=18)
+",0.5205707650000022,M1,3,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=19),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=19)
+",0.5748990649999541,M2,3,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=20),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=20)
+",0.6946702540001297,M4,4,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=21),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=21)
+",0.43844352900009653,M1,4,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=22),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=22)
+",0.4409636360001059,M2,4,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=23),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=23)
+",0.4609473950001757,M3,4,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=24),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=24)
+",0.47618968799997674,M1,5,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=25),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=25)
+",0.45257137099997635,M2,5,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=26),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=26)
+",0.40178880400003436,M3,5,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=27),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=27)
+",0.7245322610001494,M4,5,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=28),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=28)
+",0.4889788939999562,M2,6,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=29),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=29)
+",0.42976957999985643,M3,6,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=30),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=30)
+",0.533881663999864,M4,6,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=31),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=31)
+",0.47347745899992333,M1,6,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=32),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=32)
+",0.45063353600016853,M3,7,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=33),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=33)
+",0.6643440499999542,M4,7,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=34),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=34)
+",0.4874470490001386,M1,7,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=35),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=35)
+",0.5073143639999671,M2,7,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=36),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=36)
+",0.6393300150000414,M4,8,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=37),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=37)
+",0.42998207400000865,M1,8,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=38),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=38)
+",0.44395560499992825,M2,8,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=39),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=39)
+",0.4190809930000796,M3,8,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=40),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=40)
+",0.35859663099995487,M1,9,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=41),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=41)
+",0.6049682540001413,M2,9,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=42),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=42)
+",0.4520559309999044,M3,9,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=43),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=43)
+",0.536641488999976,M4,9,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=44),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=44)
+",0.46600174100012737,M2,10,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=45),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=45)
+",0.4102275279999503,M3,10,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=46),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=46)
+",0.5862273270001879,M4,10,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=47),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=47)
+",0.40486963600005765,M1,10,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=48),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=48)
+",0.4181316850001622,M3,11,1,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=49),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=49)
+",0.5833894660001988,M4,11,2,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=50),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=50)
+",0.4117700500000865,M1,11,3,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773
+,,,,,,,15457,0,False,15457,NoSuchProcess: process PID not found (pid=51),1,"Traceback (most recent call last):
+  File ""/workspace/scratch/11e9c29e8382/CIM26_Lab_v1.0.0/cim26/worker.py"", line 31, in main
+    process=psutil.Process()
+            ^^^^^^^^^^^^^^^^
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 314, in __init__
+    self._init(pid)
+  File ""/workspace/scratch/11e9c29e8382/.venv/lib/python3.12/site-packages/psutil/__init__.py"", line 360, in _init
+    raise NoSuchProcess(pid, msg=msg) from None
+psutil.NoSuchProcess: process PID not found (pid=51)
+",0.4380046589999438,M2,11,4,b8689079f676979478ee74d3657df55619e76b56df3ca1a037805eb843438773

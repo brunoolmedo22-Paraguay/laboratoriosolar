@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.experiment.lock
+user_inputs/
+user_modules/*.json

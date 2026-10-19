@@ -1,0 +1,36 @@
+{
+  "months": [
+    "2019_01",
+    "2019_02",
+    "2019_03",
+    "2019_04",
+    "2019_05",
+    "2019_06"
+  ],
+  "rounds": 11,
+  "seed": 2026,
+  "order": "rotate",
+  "thermal": "measured_back",
+  "delta_T_C": 3.0,
+  "g_min_Wm2": 100.0,
+  "g_max_Wm2": 1600.0,
+  "temperature_min_C": -50.0,
+  "temperature_max_C": 100.0,
+  "max_gap_minutes": 7.5,
+  "bootstrap_reps": 1000,
+  "threads": 1,
+  "rss_interval_s": 0.002,
+  "target_batch_s": 0.1,
+  "mpp_tolerance_V": 1e-06,
+  "max_iterations": 100,
+  "scalability_sizes": [
+    128,
+    1024
+  ],
+  "thermal_sensitivity": [
+    0.0,
+    2.0,
+    3.0,
+    5.0
+  ]
+}

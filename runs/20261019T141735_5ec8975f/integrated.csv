@@ -1,0 +1,5 @@
+model,N_common,N_eligible,N_total,N_model_valid,coverage_of_eligible,common_coverage_of_total,RMSE_W,MAE_W,MBE_W,NRMSE_pct_Pstc,E_observed_kWh,E_predicted_kWh,E_error_kWh,E_error_pct,covered_hours,energy_kind,unit,attempted,successful,failed,median_s,median_us_per_sample,median_RSS_peak_MiB,median_RSS_delta_MiB,deterministic,pareto_time,pareto_memory,RMSE_improvement_vs_M1_W,time_ratio_vs_M1,RMSE_gain_W_per_extra_us
+M1,0,15457,18705,0,0.0,0.0,,,,,0.0,0.0,0.0,,0.0,partial_common_adjacent_intervals,W; kWh; h,11,0,11,,,,,False,False,False,,,
+M2,0,15457,18705,0,0.0,0.0,,,,,0.0,0.0,0.0,,0.0,partial_common_adjacent_intervals,W; kWh; h,11,0,11,,,,,False,False,False,,,
+M3,0,15457,18705,0,0.0,0.0,,,,,0.0,0.0,0.0,,0.0,partial_common_adjacent_intervals,W; kWh; h,11,0,11,,,,,False,False,False,,,
+M4,0,15457,18705,0,0.0,0.0,,,,,0.0,0.0,0.0,,0.0,partial_common_adjacent_intervals,W; kWh; h,11,0,11,,,,,False,False,False,,,

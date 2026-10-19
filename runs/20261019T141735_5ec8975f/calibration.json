@@ -1,0 +1,165 @@
+{
+  "method": "SUPSI_22x3_multistart",
+  "success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "calibration_s": 0.7108449489999202,
+  "parameters": {
+    "IL_ref": 9.488932348374194,
+    "I0_ref": 3.050861996589074e-11,
+    "Rs": 0.37138019240340087,
+    "Rsh_ref": 408.6879577062511,
+    "a_ref": 1.4945741732279867
+  },
+  "spec": {
+    "id": "SUPSI_MONO_SI_REFERENCE",
+    "p_stc_W": 285.68591743441357,
+    "technology": "c-Si",
+    "manufacturer": null,
+    "commercial_model": null,
+    "isc_A": 9.486848514934435,
+    "voc_V": 39.714731230689345,
+    "vmp_V": null,
+    "imp_A": null,
+    "n_cells": null,
+    "alpha_pct_C": 0.046,
+    "beta_pct_C": -0.2848,
+    "gamma_pct_C": -0.405,
+    "noct_C": 44.04,
+    "u0": 29.84,
+    "u1": 3.44,
+    "eg_ref_eV": 1.121,
+    "degdt_per_K": -0.0002677,
+    "source": "SUPSI IEC61853-1&2 workbook; raw laboratory data; see README"
+  },
+  "n_observations": 66,
+  "n_conditions": 22,
+  "n_parameters": 5,
+  "cost": 0.0011329533272132159,
+  "n_iter": 19,
+  "bounds": {
+    "coordinates": [
+      "IL_A",
+      "log10_I0_A",
+      "Rs_ohm",
+      "log10_Rsh_ohm",
+      "a_ref_V"
+    ],
+    "lower": [
+      8.0,
+      -15.0,
+      0.0001,
+      1.5,
+      0.8
+    ],
+    "upper": [
+      12.0,
+      -3.0,
+      3.0,
+      5.5,
+      3.4
+    ]
+  },
+  "active_bounds": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "jacobian_rank": 5,
+  "jacobian_singular_values": [
+    3.8776848981904597,
+    0.7606486865823342,
+    0.35339460677472606,
+    0.0785668432695391,
+    0.01563978389094275
+  ],
+  "jacobian_condition": 247.93724294592644,
+  "jacobian_coordinate_note": "Condição local depende da escala dos parâmetros; não prova identificabilidade global.",
+  "starts": [
+    {
+      "initial": [
+        9.5,
+        -9,
+        0.4,
+        2.7,
+        1.8
+      ],
+      "solution": [
+        9.488930521335938,
+        -10.515572070277528,
+        0.37138250485265156,
+        2.61145417681573,
+        1.4945747907307725
+      ],
+      "cost": 0.0011329533280251053,
+      "success": true,
+      "nfev": 10,
+      "message": "`ftol` termination condition is satisfied."
+    },
+    {
+      "initial": [
+        9.6,
+        -10,
+        0.6,
+        3.3,
+        2.1
+      ],
+      "solution": [
+        9.48893224534006,
+        -10.51556873622564,
+        0.37137917342981863,
+        2.6113905525503616,
+        1.4945754001918414
+      ],
+      "cost": 0.0011329533275777415,
+      "success": true,
+      "nfev": 12,
+      "message": "`ftol` termination condition is satisfied."
+    },
+    {
+      "initial": [
+        9.7,
+        -8,
+        0.2,
+        2,
+        1.2
+      ],
+      "solution": [
+        9.488932348374194,
+        -10.515577436892292,
+        0.37138019240340087,
+        2.61139184109115,
+        1.4945741732279867
+      ],
+      "cost": 0.0011329533272132159,
+      "success": true,
+      "nfev": 19,
+      "message": "`ftol` termination condition is satisfied."
+    }
+  ],
+  "residual_summary": {
+    "Isc": {
+      "RMSE": 0.0045979795073415935,
+      "MAE": 0.003578318118065885,
+      "max_abs": 0.009619192793365983
+    },
+    "Pmp": {
+      "RMSE": 1.6609068830431304,
+      "MAE": 1.3849589045029282,
+      "max_abs": 3.3066690022320415
+    },
+    "Voc": {
+      "RMSE": 0.32980244506586126,
+      "MAE": 0.2723982754709695,
+      "max_abs": 0.6642655390874026
+    }
+  },
+  "assumptions": [
+    "Temperatura reportada em laboratório usada como Tcell (equilíbrio do ensaio flash); sem correção solar de campo.",
+    "Ns, n individual, Vmp/Imp medidos e identidade comercial desconhecidos.",
+    "Eg=1.121 eV e dEg/dT relativo=-0.0002677/K herdados para silício.",
+    "Resíduos normalizados por STC, sem ponderação por incertezas instrumentais.",
+    "Convergência multiarrranque e Jacobiano local não demonstram unicidade global."
+  ]
+}

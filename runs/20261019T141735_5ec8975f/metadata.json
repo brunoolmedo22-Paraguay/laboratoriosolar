@@ -1,0 +1,126 @@
+{
+  "run_id": "20261019T141735_5ec8975f",
+  "status": "complete_with_failures",
+  "created_utc": "2026-10-19T14:17:35.332567+00:00",
+  "diagnostic": "Engineering diagnostic, not final scientific conclusions",
+  "environment": {
+    "cpu": "x86_64",
+    "logical_cpus": 9,
+    "physical_cpus": 9,
+    "ram_total_GiB": 9.733661651611328,
+    "os": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "versions": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "pandas": "2.2.3",
+      "streamlit": "1.66.0",
+      "plotly": "6.9.0",
+      "matplotlib": "3.10.8",
+      "psutil": "7.2.2",
+      "openpyxl": "3.1.5"
+    },
+    "cpu_frequency_snapshot_MHz": 2596.14,
+    "cpu_temperature": "not measured",
+    "cpu_energy": "not measured",
+    "app_version": "1.0.0",
+    "source_sha256": {
+      "cim26/__init__.py": "58c7f357dada77a503ce95fefaf13e660c1b1c40c5e11f86cccbbe7fbe14991a",
+      "cim26/__main__.py": "35e6bbe2dce4639f64cc76f3d1ddec657732775fb27cfb70c3fee99012785b6a",
+      "cim26/calibration.py": "0b914866174b76c518e9b51ec2d1bb2563134875da4c564c0ac2b1fe275bd712",
+      "cim26/data.py": "9f9e01153d6ba60af7108853237de9cff38d6d291832ddcddf2dff31e9e4e76f",
+      "cim26/experiment.py": "f06e0f76224b05c33a4a52deae82d97c54c01c7b95dd78ff7cc14620a8e0396c",
+      "cim26/legacy/__init__.py": "6898004ffd19636fc1227d3148726ecee2c25586557810572cda7e77dafa2951",
+      "cim26/legacy/config/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cim26/legacy/config/pv_database.py": "0d6506fcf440598d345a68fae817d31eda68817a8c7253202afb3af5595f5718",
+      "cim26/legacy/config/settings.py": "caa8ef40c1b3972a76683ed97287b2af364e1d5e6158c19dc036a91f5b6ecaf6",
+      "cim26/legacy/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cim26/legacy/models/pv_module.py": "9722cbd6459e91043f982124dc2d9f3477ba2533b24aecd35550fca5371bbc23",
+      "cim26/legacy/models/single_diode.py": "b4cfb5ac30a789f1691c181c523720c5ffaa904998319fe660b7cc9fdef4b487",
+      "cim26/legacy/simulation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "cim26/legacy/simulation/solver.py": "ba626c113e61d77d61b337975022a1423eb6c69fd87e877c35611664e9ecc26a",
+      "cim26/metrics.py": "505b0b228c47956c1c1a240346cdb216133a9e11b9a2306fe90a9b79bdf493a9",
+      "cim26/physics.py": "da3222085ef8f2ea5d7bf4190756d55c3b2e3a8ad1358e819327464539e723e7",
+      "cim26/report.py": "c5d9a9dad9a3028bd9be3c4f015bd151d4fb517261efdec1fa674c42084d4813",
+      "cim26/schema.py": "989b92562e1b7cdd3c1b32aff0a40a530da488f367fe46ad6cb49681462e7d1b",
+      "cim26/worker.py": "63d8b6e7d2ce90fa26c3a58f21bd976b17e2fea416911768900e5272d638f1cf"
+    }
+  },
+  "prepare_s": 0.3432339549999597,
+  "calibration_s": 0.7108449489999202,
+  "input_sha256": {
+    "module_spec.json": "1355d16706d9aa4351b9d6498d131fd0c237a1da81a9036042f6e5baeea3ff75",
+    "2019_02.csv": "5d9052381abe2a4ef5dc1a7719037dd0c4580477a6ae3c5fd662e53aa16dc896",
+    "2019_01.csv": "9240ad21d8a4c529ff73889291f350feda05fa49198f59ed0ed7f420a8acbcd1",
+    "IEC61853_1-2.xlsx": "22a6ae417ebda8738be107013aa0859fbda7f34d0e77ad9373a60d1a58c0780d",
+    "2019_06.csv": "b73de2ca0993b3faa62ae94a8961cb98ced0680cdaf27fed104711a4a1aa0f4e",
+    "2019_04.csv": "420ffbd8b1ba5ecf2cb00b7df9de1a0c2bcb14fb1544cf5978a3dff799e01ce2",
+    "2019_05.csv": "cf766fab6630400a52bc083d56fd438a16ae79a54cf237e5e0f87ec6ebcb4d06",
+    "laboratory.csv": "13b3c6c0d386e8520ef5ba420421c2fea156c211d5d78965ff98a7fa6b2454c3",
+    "2019_03.csv": "3bed31381767e2150379da41e0a178ef506e80ff9b367acf2bb48e013054e36d"
+  },
+  "input_files": [
+    "2019_01.csv",
+    "2019_02.csv",
+    "2019_03.csv",
+    "2019_04.csv",
+    "2019_05.csv",
+    "2019_06.csv"
+  ],
+  "laboratory_temperature_assumption": "Temperatura reportada em laboratório usada como Tcell (equilíbrio do ensaio flash); sem correção solar de campo.",
+  "algorithmic_reference": [
+    {
+      "G": 100,
+      "T": 15,
+      "delta_W": 2.1316282072803006e-13
+    },
+    {
+      "G": 200,
+      "T": 75,
+      "delta_W": 2.41158204516978e-11
+    },
+    {
+      "G": 600,
+      "T": 25,
+      "delta_W": 5.684341886080802e-14
+    },
+    {
+      "G": 1000,
+      "T": 25,
+      "delta_W": 9.72022462519817e-12
+    },
+    {
+      "G": 1100,
+      "T": 75,
+      "delta_W": 1.958255779754836e-11
+    }
+  ],
+  "huld": {
+    "family": "CSi CURRENT",
+    "coefficients": [
+      -0.017237,
+      -0.040465,
+      -0.004702,
+      0.000149,
+      0.00017,
+      5e-06
+    ],
+    "source": "JRC PVGIS data-sources-calculation-methods; checked 2026-10-19"
+  },
+  "timestamp_timezone": "Not specified by source. Original clock retained; no UTC/DST conversion.",
+  "implementation": "All models batch-vectorized. M4: legacy Lambert equation, Wright Omega evaluation, bounded golden search.",
+  "memory_policy": "Fresh process per model/round; sampled RSS baseline after warmup; absolute and delta; 2 ms default sampling can miss peaks.",
+  "optical_policy": "Measured Gpoa for all four; optical/spectral corrections not calibrated.",
+  "statistical_limits": "11 software rounds are not physical replications. Day bootstrap assumes representative exchangeable days; serial/seasonal dependence remains.",
+  "N_total": 18705,
+  "N_eligible": 15457,
+  "N_common": 0,
+  "outside_lab_rectangle_eligible": 804,
+  "benchmark_records": 44,
+  "max_active_model_workers": 1,
+  "postprocess_s": 11.315700331000016,
+  "finished_utc": "2026-10-19T14:18:24.042337+00:00",
+  "figures_s": 1.6324285600001076,
+  "total_wall_s": 50.341337002000046
+}

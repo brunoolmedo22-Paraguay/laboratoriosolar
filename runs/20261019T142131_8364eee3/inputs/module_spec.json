@@ -1,0 +1,21 @@
+{
+  "id": "SUPSI_MONO_SI_REFERENCE",
+  "p_stc_W": 285.68591743441357,
+  "technology": "c-Si",
+  "manufacturer": null,
+  "commercial_model": null,
+  "isc_A": 9.486848514934435,
+  "voc_V": 39.714731230689345,
+  "vmp_V": null,
+  "imp_A": null,
+  "n_cells": null,
+  "alpha_pct_C": 0.046,
+  "beta_pct_C": -0.2848,
+  "gamma_pct_C": -0.405,
+  "noct_C": 44.04,
+  "u0": 29.84,
+  "u1": 3.44,
+  "eg_ref_eV": 1.121,
+  "degdt_per_K": -0.0002677,
+  "source": "SUPSI IEC61853-1&2 workbook; raw laboratory data; see README"
+}
